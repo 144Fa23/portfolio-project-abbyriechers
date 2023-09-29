@@ -7,20 +7,16 @@
 <html lang="en"> 
 
 <head>
-    <title>Abby Riechers Portfolio</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+<title>Abby Riechers Portfolio</title>
+<meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css">
 </head>    
 <body>
     
     <header>
         <h1>Abby Riechers</h1>
-        <div class="tablet-desktop">
         <h3>"Wrinkles only go where smiles have gone"</h3>
-    </div>
-        <a href="index.html"><img src="abbyriechers.jpg" alt="gir standing in front of tower" class="round">
+         <img src="abbyriechers.jpg" alt="gir standing in front of tower"
               
     </header>
     
@@ -29,9 +25,7 @@
         <li><a href="template.html">Home</a></li>
         <li><a href="aboutme.html">About Me</a></li> 
         <li><a href="gallery.html">Gallery</a></li> 
-        <li><a href="educationphilosphy.html">Education of Philsophy</a></li>
         <li><a href="contactme.html">Contact Me</a></li>
-        
      </ul>
     </nav>
     

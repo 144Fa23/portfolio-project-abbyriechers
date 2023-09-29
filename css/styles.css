@@ -1,103 +1,153 @@
-/* 
+/*
 Author: Abby Riechers
-Date: 9/21/2023
+Date: 9/26/2023
 File Name: styles.css
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, h1, div, img {
+body, header, nav, main, footer, img, h1, h3, ul {
     margin: 0;
     padding: 0;
-    border: 0;   
+    border: 0;
 }
- 
+
 /* Style rules for body and images */
 body {
     background-color: #808080;
 }
 
-img { 
+img {
     max-width: 100%;
     display: block;
 }
 
-/* Style rule for header */
-header {
-    width: 25%;
-    float: center;
+/* Style rules for mobile viewport*/
+
+
+/* Style rules to show mobile class and hide tab-desk class*/
+
+.mobile {
+    display: block; 
+}
+    
+.tablet-desktop {
+    display: none;
 }
 
-/* Styles for navigation area */
+/* Style rules for header area */
+
+h1 {
+    padding: 2%;
+    text-align: center;
+    font-family: 'Lora', sans-serif;
+}
+
+h3 {
+    padding: 2%;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+/* Style rules for navigation area */
 nav {
-    width: 70%;
-    float: right;
-    margin: 5em 3em 0 0;
+    background-color: #ffeff4;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
-    text-align: right;
+    text-align: center;
 }
 
 nav li {
-    display: inline-block;
+    display: block;
     font-size: 1.5em;
-    font-family: Verdana, Arial, sand-serif;
-    font-weight: bold; 
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    border-top: 0.5px solid #1A1A1A
 }
 
 nav li a {
     display: block;
-    color: #BFBFBF;
-    text-align: center;
-    padding: 0.5em 1em;
+    color: #1A1A1A;
+    padding: 0.5em 2em;
     text-decoration: none;
 }
 
-/* Style rules for main content*/
+/* Style rules for main content */
 main {
-     background-color: #BFBFBF;
-     padding: 2%;
-     font-size: 1.25em;
+    padding: 2%;
+    font-family: 'Lora', serif;
 }
 
-h1 {
-    text-align: center;
+main p {
+    font-size: 1.25em;
 }
 
-h3 {
-    text-align: center;
+main h3 {
+    padding-top: 2%;
 }
 
-.external-link {
-    color: #666600;
-    font-weight: bold;
+main ul {
+    list-style-type: square;
+}
+
+.link {
+    color: #4d3319;
     text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.round {
+    border-radius: 6px;
+}
+
+#info ul {
+    margin-left: 10%;
 }
 
 #contact {
     text-align: center;
 }
 
-#contact a {
-    color: #666600;
-    text-decoration: none;
+.map {
+  border: 8px solid #000;
+  width: 95%;
+  height: 50%;
 }
 
-.map {
-    border: 8px solid #000;
+.tel-linkround {
+    background-color:#b38693;
+    padding: 2%;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tel-linkround a {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Style rules for footer content */
-footer p {
-    font-size: 0.75em;
+footer {
     text-align: center;
-    color: #fff;
-    padding: 0 1em;
+    font-size: 0.85em;
+    background-color: #b38693;
+    color: #f6eee4;
+    padding: 1% 0;
 }
 
-footer p a{
-    color: #fff;
+footer a {
+    color: #f6eee4;
     text-decoration: none;
 }
